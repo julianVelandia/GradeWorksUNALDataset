@@ -1,7 +1,11 @@
 # Grade Works UNAL Dataset [WIP]
+
 Dataset of the Grade Works of the UNAL repository.
+
 Link repository: https://repositorio.unal.edu.co/handle/unal/5
+
 Dataset kaggle: https://www.kaggle.com/datasets/juliancamilovelandia/trabajos-de-grado-repositorio-unal
+
 The dataset currently has 1907 Grade Works extracted from a PDF (Each) saved in a JSON file, where the key is the file uri and the content is the entire PDF as plain text.
 
 To do
