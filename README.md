@@ -1,7 +1,8 @@
 # Grade Works UNAL Dataset
 
-![image](https://github.com/user-attachments/assets/1bdcd3f3-0a06-48f0-94cf-f96a7acdd767)
+![image](https://github.com/user-attachments/assets/a81d8a9d-4112-4ddd-bec8-325435c21c2a)
 
+![image](https://github.com/user-attachments/assets/1850b8fc-eb75-4d4c-9e31-70a21fde1a18)
 
 Dataset of the Grade Works of the UNAL repository.
 
