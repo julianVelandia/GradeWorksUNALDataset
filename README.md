@@ -1,14 +1,12 @@
 # Grade Works UNAL Dataset
 
-![image](https://github.com/user-attachments/assets/a81d8a9d-4112-4ddd-bec8-325435c21c2a)
-
-![image](https://github.com/user-attachments/assets/1850b8fc-eb75-4d4c-9e31-70a21fde1a18)
-
 Dataset of the Grade Works of the UNAL repository.
 
 Link repository: https://repositorio.unal.edu.co/handle/unal/5
 
 Dataset kaggle: https://www.kaggle.com/datasets/juliancamilovelandia/trabajos-de-grado-repositorio-unal
+
+Dataset HuggingFace: https://huggingface.co/datasets/JulianVelandia/unal-repository-dataset
 
 The dataset currently has 1907 Grade Works extracted from a PDF (Each) saved in a JSON file, where the key is the file uri and the content is the information of the tesis and the entire PDF as plain text.
 
@@ -28,8 +26,21 @@ The dataset currently has 1907 Grade Works extracted from a PDF (Each) saved in 
 }
 ```
 
-# To do
+The extraction process is as follows
 
-* Read the table of contents from each PDF and organize each field in the table as a field in the dataset
-  
-* More types of files, sql, csv etc...
+![image](https://github.com/user-attachments/assets/a81d8a9d-4112-4ddd-bec8-325435c21c2a)
+
+![image](https://github.com/user-attachments/assets/1850b8fc-eb75-4d4c-9e31-70a21fde1a18)
+
+## Key Statistics of `dataset.json`
+
+- **Total records**: 1910  
+- **Total extracted texts (`raw_content`)**: 1859  
+- **Unique programs**: 54  
+  - Most frequent program: **Medicine - Specialization in Anesthesiology** (995 records)  
+- **Unique advisors (`advisor`)**: 664  
+  - Most frequent advisor: **Narváez Rincón, Paulo César** (82 records)  
+- **Unique authors (`author`)**: 1863  
+  - Most frequent author: **Campos Gaona, Rómulo** (4 records)  
+- **Unique years (`date`)**: 533  
+  - Most frequent year: **2014** (182 records)  
